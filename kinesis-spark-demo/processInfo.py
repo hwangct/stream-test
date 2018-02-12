@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 import sys
-import boto3
+import boto
 import json
 
 from pyspark import SparkContext

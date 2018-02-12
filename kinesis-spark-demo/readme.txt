@@ -25,4 +25,10 @@ $ sudo pip install boto3
 
 # Run a Python application on a Spark standalone cluster.  Not sure if the packages are already in the classpath on the EMR cluster.
 # https://spark.apache.org/docs/latest/submitting-applications.html
-$ spark-submit --packages org.apache.spark:spark-streaming-kinesis-asl:2.2.1 --master local processInfo.py 1000
+
+# Documentation on reading data from kinesis streams using spark
+# https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-implementation-app-py.html
+# https://docs.aws.amazon.com/streams/latest/dev/kinesis-sample-application.html
+# https://aws.amazon.com/blogs/big-data/optimize-spark-streaming-to-efficiently-process-amazon-kinesis-streams/
+
+$ spark-submit --packages org.apache.spark:spark-streaming-kinesis-asl:2.2.1 --master local processInfo.spy 1000
