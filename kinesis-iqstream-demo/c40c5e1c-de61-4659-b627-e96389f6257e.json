@@ -1,0 +1,1 @@
+{"source": "sampleStreamProducer", "payload": {"checksum": "6b5da4823634e9357201d373f662c9578e5e2777e759ba1d62fee3f0ba239a2f", "length": 104857600, "segments": 100, "meta": {"timestamp": 1521046678.519736, "sample_rate": 2000000, "format": "cs16"}, "id": "c40c5e1c-de61-4659-b627-e96389f6257e"}}
